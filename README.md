@@ -1,1 +1,1 @@
-# demo-haskell-language-server-jump-to-defintionion-issue
+# Demo: Jump to defintion issue
