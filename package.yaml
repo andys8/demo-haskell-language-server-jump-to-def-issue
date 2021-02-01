@@ -39,7 +39,9 @@ executables:
 tests:
   demo-hls-jump-to-definition-test:
     main:                Spec.hs
-    source-dirs:         test
+    source-dirs:
+      - test
+      - src
     ghc-options:
     - -threaded
     - -rtsopts

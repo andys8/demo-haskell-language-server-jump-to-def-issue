@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 9da40c309046377d92b7f821cb757c7f0e7d46ee05cb86a09cb46aa3c804eb92
+-- hash: fe5d392200e78c3beacc6e0c5952d2dce8f3814bb05456e7eb772441a35f862e
 
 name:           demo-hls-jump-to-definition
 version:        0.1.0.0
@@ -53,9 +53,11 @@ test-suite demo-hls-jump-to-definition-test
   main-is: Spec.hs
   other-modules:
       SpecHelper
+      Lib
       Paths_demo_hls_jump_to_definition
   hs-source-dirs:
       test
+      src
   ghc-options: -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       base >=4.7 && <5
