@@ -1,5 +1,7 @@
 # Demo: Jump to definition issue
 
+See <https://github.com/haskell/haskell-language-server/issues/1286>
+
 ## Steps
 
 - Open `test/Spec.hs`
