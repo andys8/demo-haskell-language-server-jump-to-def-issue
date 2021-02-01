@@ -1,0 +1,8 @@
+cradle:
+  stack:
+    - path: "./app"
+      component: "demo-hls-jump-to-definition:exe:demo-hls-jump-to-definition-exe"
+    - path: "./test"
+      component: "demo-hls-jump-to-definition:test:demo-hls-jump-to-definition-test"
+    - path: "./src"
+      component: "demo-hls-jump-to-definition:lib"

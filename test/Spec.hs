@@ -1,2 +1,8 @@
+import           Lib                            ( libraryFunction )
+import           SpecHelper                     ( testHelper )
+
+
 main :: IO ()
-main = putStrLn "Test suite not yet implemented"
+main = do
+    testHelper -- Jump to defintion with testHelper is working
+    libraryFunction -- Jump to defintion with libraryFunction is not working
