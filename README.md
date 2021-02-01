@@ -8,7 +8,9 @@
 
 ## Known workaround
 
-`package.yaml` contains
+See branch `workaround`.
+
+`package.yaml` contains:
 
 ```yaml
 tests:
@@ -23,7 +25,9 @@ Downside: Higher compile times, redundant
 ```yaml
 tests:
   demo-hls-jump-to-definition-test:
-    source-dirs: test
+    source-dirs:
+      - test
+      - src
     dependencies: demo-hls-jump-to-definition
 ```
 
