@@ -2,6 +2,11 @@
 
 See <https://github.com/haskell/haskell-language-server/issues/1286>
 
+## Update: Solution
+
+Issue seems to be solved: <https://github.com/haskell/haskell-language-server/issues/1286#issuecomment-778673926>
+
+
 ## Steps
 
 - Open `test/Spec.hs`
